@@ -12,13 +12,11 @@
     Const declaration prevents modification of its binding, not its value.
     For an const declaration of an object, you can make modifications of the
     object.
-
 */
 
 // Valid constant
 const MAX_ITEMS = 30;
 console.log(MAX_ITEMS);
-
 
 // Block level example
 if(true){
